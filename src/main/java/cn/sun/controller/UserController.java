@@ -21,6 +21,7 @@ public class UserController {
 
     @RequestMapping("/ceshigitgengxin")
     public void ceshi(){
+
         return;
     }
 }
