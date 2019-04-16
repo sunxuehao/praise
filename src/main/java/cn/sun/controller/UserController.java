@@ -2,6 +2,7 @@ package cn.sun.controller;
 
 import cn.sun.service.UserService;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -17,4 +18,9 @@ import javax.annotation.Resource;
 public class UserController {
     @Resource
     private UserService userService;
+
+    @RequestMapping("/ceshigitgengxin")
+    public void ceshi(){
+        return;
+    }
 }
